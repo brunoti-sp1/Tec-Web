@@ -1,0 +1,116 @@
+#config{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+
+}
+
+#rodape{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+label, input{
+ 	display: block;
+ 	float: left;
+}
+
+label {
+  text-align: right;
+  width: 60px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+fieldset {
+  border: solid 2px #0B2161;
+  width: 600px
+}
+
+br {
+  clear: left;
+}
+
+input{
+	background-color: #00BFFF;
+	font-weight: bold;
+}
+
+input:focus { 
+    background-color: white;
+}
+
+legend{
+	font-weight: bold;
+	font-color:#086A87;
+	font-family: Courier New;
+	text-align: center;
+	
+  	
+}
+
+#sociais{
+	border-bottom: 6px solid #0B2161;
+	width: 150px   
+}
+
+#cursos{
+	border-bottom: 6px solid #0B2161;
+	width: 50px;
+	
+}
+
+#motivo{
+	border: solid 0px #000;
+	width: 200px ;	
+}
+
+.area{
+	font-weight: bold;
+	background-color: #00BFFF;
+}
+
+textarea:focus {
+  background: white;.
+}
+
+::-webkit-input-placeholder {
+   color: #0B2161;
+}
+:-moz-placeholder {
+   color: #0B2161;
+}
+::-moz-placeholder {
+   color: #0B2161;
+}
+:-ms-input-placeholder {
+ color: #0B2161;
+}
+
+.button {
+  background-color: #00BFFF;
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5;
+  transition: 0.4s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Berlin Sans FB;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {opacity: 2}
